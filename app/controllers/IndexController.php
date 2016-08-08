@@ -205,12 +205,13 @@ class IndexController extends ControllerBase
     /**
      *
      */
-    public function guiaAction()
+    public function guiaAction($opcion=1)
     {
         $this->assets->collection('jquery')
             ->addJs('js/jquery.min.js');
         $this->tag->setTitle('Guía de Trámites');
         $this->view->setTemplateAfter('admin');
+        $this->view->opcion = $opcion;
     }
     public function inauguracionAction()
     {
