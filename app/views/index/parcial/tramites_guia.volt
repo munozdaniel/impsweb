@@ -7,7 +7,6 @@
     }
 
     li.li_tramites {
-        width: 300px;
         height: 30px;
         margin: 0 0 7px 0;
     }
@@ -65,34 +64,38 @@
             <!-- END PORTFOLIO HEADER -->
             <!-- GALERIA -->
             <div class="container" style="margin-top:15px;">
-                <div class="row" style="background-color: rgba(247, 247, 247, 0.18);
+                <div class="row" style="background-color: rgba(55, 55, 55, 0.47);
                                     -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
                                     -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
                                     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);    margin-top: 20px;
                                     padding: 40px 0px 20px 0px;">
 
                     <div >
-                        <div class="col-md-3" style="margin-right:10px; ">
+                        <div class="col-md-3  padding-left-md-10">
 
                             <ul class="ul_tramites ">
-                                <li class="li_tramites orange"><a href="#">Jubilación Ordinaria</a></li>
-                                <li class="li_tramites blue"><a href="#">Pensión Ordinaria</a></li>
-                                <li class="li_tramites green"><a href="#">Retiro por Invalidez</a></li>
-                                <li class="li_tramites purple"><a href="#">Reconocimiento de Servicios</a></li>
-                                <li class="li_tramites gold"><a href="#">Certificado de Supervivencia</a></li>
-                                <li class="li_tramites orange"><a href="#">Carta Poder</a></li>
+                                <li class="li_tramites orange">{{ link_to("index/guia/1",'Jubilación Ordinaria') }}</li>
+                                <li class="li_tramites blue">{{ link_to("index/guia/2",'Pensión Ordinaria') }}</li>
+                                <li class="li_tramites green">{{ link_to("index/guia/3",'Retiro por Invalidez') }}</li>
+                                <li class="li_tramites purple">{{ link_to("index/guia/4",'Reconocimiento de Servicios') }}</li>
+
 
                             </ul>
                         </div>
-                        <div class="col-md-3" style="padding-left: 40px;">
+                        <div class="col-md-3  padding-left-md-40">
                             <ul class="ul_tramites">
+                                <li class="li_tramites gold">{{ link_to("index/guia/5",'Certificado de Supervivencia') }}</li>
+                                <li class="li_tramites orange">{{ link_to("index/guia/6",'Carta Poder') }}</li>
+                                <li class="li_tramites blue">{{ link_to("index/guia/7",'Seguro de Vida Obligatorio') }}</li>
+                                <li class="li_tramites green">{{ link_to("index/guia/8",'Adhesion al Coseguro') }}</li>
 
-                                <li class="li_tramites blue"><a href="#">Seguro de Vida Obligatorio</a></li>
-                                <li class="li_tramites green"><a href="#">Adhesion al Coseguro</a></li>
-                                <li class="li_tramites purple"><a href="#">Óptica</a></li>
-                                <li class="li_tramites gold"><a href="#">Ortopedia</a></li>
-                                <li class="li_tramites orange"><a href="#">Excimer Láser</a></li>
-
+                            </ul>
+                        </div>
+                        <div class="col-md-3 padding-left-md-40">
+                            <ul class="ul_tramites">
+                                <li class="li_tramites purple">{{ link_to("index/guia/9",'Óptica') }}</li>
+                                <li class="li_tramites gold">{{ link_to("index/guia/10",'Ortopedia') }}</li>
+                                <li class="li_tramites orange">{{ link_to("index/guia/11",'Excimer Láser') }}</li>
                             </ul>
                         </div>
 

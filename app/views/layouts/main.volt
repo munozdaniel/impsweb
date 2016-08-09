@@ -19,7 +19,7 @@
                     <li class="active "><a href="#" class="si_recorrer">Inicio</a></li>
                     <li><a href="#about" class="si_recorrer">Información</a></li>
                     <li><a href="#service" class="si_recorrer">Servicios</a></li>
-                    <li><a href="#works" class="si_recorrer">Guía de Tramites</a></li>
+                    <li><a href="#guia_tramites" class="si_recorrer">Guía de Tramites</a></li>
                     <li><a href="#team" class="si_recorrer">Prestaciones</a></li>
                     <li><a href="#clients" class="si_recorrer">Contactos</a></li>
                     <li id="opciones-institucion" class="dropdown">

@@ -19,7 +19,7 @@
                     <li>{{ link_to('index/index#','class':'','Inicio' )}}</li>
                     <li>{{ link_to('index/index#about','class':'','Informacion') }}</li>
                     <li>{{ link_to('index/index#service','class':'','Servicios') }}</li>
-                    <li>{{ link_to('index/index#works','class':'','Guía de Tramites') }}</li>
+                    <li>{{ link_to('index/index#guia_tramites','class':'','Guía de Tramites') }}</li>
                     <li>{{ link_to('index/index#team','class':'','Prestaciones' )}}</li>
                     <li>{{ link_to('index/index#clients','class':'','Contactos' )}}</li>
                     <li id="opciones-institucion" class="dropdown">
